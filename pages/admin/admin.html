@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="pages/store/style.css" /> -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <title>I B E N T O</title>
+</head>
+
+<body>
+  <div id="textareawrite">
+    <h1>Add users</h1>
+
+    <label>Username</label>
+    <input type="text" name="user" id="user" required>
+    <label>Full name</label>
+    <input type="text" name="name" id="name" required>
+    <label>Email</label>
+    <input type="email" name="email" id="email" required>
+    <label>Password</label>
+    <input type="password" name="password" id="password" required>
+    <label>Confirme password</label>
+    <input type="password" name="confirmpassword" id="confirmpassword" required>
+    <div id="err-msg"></div>
+
+    <button id="send-user-data">Send</button>
+    <button id="cancel-ticket">Cancel</button>
+  </div>
+  <div id="container">
+    <header>
+      <img id="logo" src="../../public/logo/signin.svg" alt="Ibento logo">
+      <div>
+        <button id="logout-button">Logout</button>
+      </div>
+    </header>
+    <div id="title">
+      <h1>Add users</h1>
+    </div>
+    <div id="content">
+      <button type='button' id="user-button">User</button>
+      <div>
+        <table id="user-table">
+          <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>UserType</th>
+            <th>Active</th>
+            <th>Delete</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- <script type="text/javascript" src="../../qrcode.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <!-- <script type="text/javascript" src="/pages/store/script.js"></script> -->
+  </div>
+</body>
+
+</html>

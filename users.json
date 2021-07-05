@@ -1,0 +1,18 @@
+{
+  "1": {
+    "userName": "admin",
+    "name": "admin",
+    "email": "admin@gmail.com",
+    "password": "$2b$10$tL8l/3HyEHxuK26CSELhuecxoUg2ZR61HG8k8oM6Fq0vAzkm09VH2",
+    "class": "admin",
+    "active": "true"
+  },
+  "2": {
+    "userName": "rafael",
+    "name": "rafael hideki hirayama",
+    "email": "rafael@gmail.com",
+    "password": "$2b$10$y2w3uaDSyuH.YrbJZy1HDe6rU3mICvP.Z6zbqPi8Sy32uT/pFD.B6",
+    "class": "user",
+    "active": "true"
+  }
+}
